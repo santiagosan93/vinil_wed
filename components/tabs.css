@@ -1,0 +1,53 @@
+.info.active {
+  opacity: 1
+}
+
+.left .tabs {
+  display: flex;
+}
+
+.info {
+  opacity: 0;
+  transition: opacity 0.4s;
+  font-family: main-font-family;
+  color: #e5c187;
+}
+
+.info h3 {
+  color: #B99455;
+}
+
+.tab {
+  font-family: main-font-family;
+  color: #e5c187;
+}
+
+.tab.selected {
+  border-bottom: 3px solid #B99455;
+  color: #B99455;
+  margin-bottom: 3px;
+  border-radius: 0 0 2px 2px;
+}
+
+.main-tab {
+  opacity: 0;
+  transition: opacity 0.4s;
+  overflow: hidden;
+  max-height: 600px;
+  z-index: -1;
+}
+
+.hidden {
+  display: none;
+}
+
+.main-tab.active {
+  opacity: 1;
+  z-index: 1;
+  max-height: 5000px;
+}
+
+.main-tab {
+  width: 100%;
+}
+

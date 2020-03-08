@@ -1,0 +1,105 @@
+.banner {
+  text-align: center;
+  border-bottom: 1px solid white;
+  border-top: 1px solid gray;
+  color: white;
+  font-family: main-font-family;
+}
+
+.banner-loui-vini {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.1)
+  ), url(../images/main_image.png);
+  background-size: cover;
+  object-fit: cover;
+}
+
+.banner-hochzeit {
+  padding: 145px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.1)
+  ), url(../images/hochzeit.JPG);
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;:
+}
+
+.banner-kinderbetreeung {
+  padding: 200px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ), url(../images/kids.jpeg);
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;:
+}
+
+.banner-wunsche {
+  padding: 200px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ), url(../images/wish.jpeg);
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;:
+}
+
+.banner-kontact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 185px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+  ), url(../images/kontact.JPG);
+  background-size: cover;
+  object-fit: cover;
+}
+
+.banner-rsvp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 185px;
+  padding-top: 127px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.1)
+  ), url(../images/rsvp.JPG);
+  background-size: cover;
+  object-fit: cover;
+}
+
+.banner-location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 185px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+  ), url(../images/location.png);
+  background-size: cover;
+  object-fit: cover;
+}
+
+.banner-ort {
+  margin-bottom: 90px;
+}
+
+.banner-text {
+  font-size: 32px
+}
+
+.banner h3 {
+  font-size: 24px;
+}
+
+.banner-text.title {
+  margin-top: 132px;
+}

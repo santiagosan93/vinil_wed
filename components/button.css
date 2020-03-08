@@ -1,0 +1,21 @@
+.btn-rsvp {
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.btn-normal {
+  width: 111px;
+  padding: 5px;
+}
+
+.btn-nav {
+  width: 105px;
+  padding: 4px 21px;
+}
+
+.btn-banner {
+  margin: 42px auto;
+  width: 131px;
+  padding: 4px;
+}

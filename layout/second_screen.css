@@ -1,0 +1,78 @@
+.second-screen {
+  display: flex;
+}
+
+.right {
+  width: 50%;
+  border: 0.1px solid gray;
+  border-top: 0.1px solid white;
+  background: linear-gradient(
+    rgba(70, 70, 70, 0.2),
+    rgba(70, 70, 70, 0.2)
+  ), url(../images/location.png);
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  color: white;
+  padding: 55px;
+  font-family: main-font-family;
+}
+
+.left {
+  border: 1px solid white;
+  border-left: 0.1px solid gray;
+  width: 50%;
+  padding: 29px 50px;
+  background-color: #FFFAF2;
+}
+
+.left-title {
+  color: #B99455;
+}
+
+.left p {
+  color: #e5c187;
+}
+
+.left .left-title {
+  margin-bottom: 48px;
+}
+
+.left-hochzeit {
+  padding: 132px 88px;
+}
+
+.absolute-0-0 {
+  position: absolute;
+  top: 0;
+  left: 0
+}
+
+.border-left-strong {
+  border-left: 2px solid #E0CFB2
+}
+
+.border-right-strong {
+  border-right: 2px solid #E0CFB2
+}
+
+.right .title {
+  margin-top: 327px;
+}
+
+.accomodation {
+  background-color: #FFFAF2;
+  font-family: main-font-family;
+  text-align: center;
+  padding: 53px;
+}
+
+.accomodation .title {
+  color: #B99455;
+}
+
+.accomodation .a-info {
+  color: #e5c187;
+  width: 550px;
+  margin: 0 auto 24px auto;
+}

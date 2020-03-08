@@ -1,0 +1,12 @@
+.cont {
+  max-width: 1280px;
+}
+
+.sub-container {
+  font-family: main-font-family;
+  padding: 64px 210px;
+}
+
+.blank-space {
+  height: 704px;
+}

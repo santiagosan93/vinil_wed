@@ -1,0 +1,28 @@
+.instruction-row {
+  display: flex;
+  font-family: main-font-family;
+  margin-bottom: 32px;
+}
+.instructions {
+  padding: 94px 143px;
+}
+
+.square-1 {
+  color: #B99455;
+  width: 86px;
+  font-weight: bold;
+}
+
+.square-2 {
+  width: 880px;
+  color: #e5c187;
+}
+
+.square-2.title {
+  color: black;
+}
+
+
+.instruction-row.first {
+  font-weight: bold;
+}

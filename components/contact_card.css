@@ -1,0 +1,29 @@
+.contact-card {
+  position: relative;
+  background-color: #FFFAF2;
+  font-family: main-font-family;
+  color: #e5c187;
+  padding: 60px;
+  width: 50%;
+  border-right: 4px solid white;
+  border-left: : 4px solid white;
+  border-top: 10px solid #E0CFB2;
+}
+
+.contact-card .name {
+  color: #B99455;
+  margin-top: 135px;
+}
+
+.contact-card .p-info {
+  color: black;
+}
+
+.contact-card .bio {
+  width: 318px;
+}
+
+
+.contac-cards {
+  display: flex;
+}

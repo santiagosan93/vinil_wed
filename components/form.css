@@ -1,0 +1,21 @@
+.form-rsvp {
+  width: 400px;
+  background-color: white;
+  position: absolute;
+  top: -145px;
+  left: 50%;
+  margin-left: -200px;
+  z-index: 1;
+}
+
+.inner-form {
+  padding: 20px;
+  box-shadow: 0 0 5px rgb(120, 120, 120);
+
+}
+
+.form-message {
+  border: none;
+  box-shadow: 0 0 2px rgb(100, 100, 100);
+  margin: 0 auto;
+}
